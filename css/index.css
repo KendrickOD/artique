@@ -331,3 +331,20 @@ a {
         padding: 10px 10px 5px 10px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
